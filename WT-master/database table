@@ -1,0 +1,17 @@
+create table signup(
+user_name int(11) not null AUTO_INCREMENT PRIMARY KEY ,
+user_name varchar(256) not null,
+user_first varchar(256) not null,
+user_last varchar(256) not null,
+user_email varchar(256) not null,
+user_password varchar(256) not null
+);
+create table shows( 
+sh_id int(11) not null AUTO_INCREMENT PRIMARY KEY , 
+sh_name varchar(256) not null, 
+sh_type varchar(256) not null, 
+sh_story varchar(2560) not null, 
+sh_dur varchar(256) not null, 
+sh_release varchar(256) not null, 
+sh_cast varchar(256) not null, 
+sh_awards varchar(256) not null );
