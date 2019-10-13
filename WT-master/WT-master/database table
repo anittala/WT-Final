@@ -1,0 +1,111 @@
+create table signup(
+user_name not null PRIMARY KEY int AUTO_INCREMENT,
+user_first not null varchar(20),
+user_last not null varchar(20),
+user_email not null varchar(20),
+user_password not null varchar(256),
+);
+
+create table shows(
+sh_id not null PRIMARY KEY int AUTO_INCREMENT,
+sh_name not null varchar(256),
+sh_type not null varchar(256),
+sh_dur not null varchar(256),
+sh_release not null varchar(256),
+sh_cast not null varchar(256),
+sh_awards not null varchar(256),
+);
+
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Titanic','Movie','Seventeen-year-old Rose hails from an aristocratic family and is set to be married. When she boards the Titanic, she meets Jack Dawson, an artist, and falls in love with him.','3h 15m','1997','Kate Winslet, Leo DiCaprio,..','Oscar, Golden Globe');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Avatar','Movie','Jake, a paraplegic marine, replaces his brother on the Navi inhabited Pandora for a corporate mission. He is accepted by the natives as one of their own but he must decide where his loyalties lie.','2h 42','2009','Zoe Saldana,Sam Worthington, Sigourney Weaver,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Pacific Rim','Movie','The government assumes the Jaegers, robotic war machines battling the Kaijus, to be ineffective. However, Stacker Pentecosts team believes that only the Jaegers can save the world from destruction.','2h 12m','2013','Idris Elba, Ron Perlman,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Rampage','Movie','Primatologist Davis Okoye teams up with a geneticist, Dr. Kate Caldwell, and an albino gorilla, George, to prevent three giant mutated animals from wreaking havoc in Chicago.','1h 55m','2018','Dwayna Johnson, Malin Ackerman,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Kong: Skull Island','Movie','A crew reaches Skull Island in order to map it, but its members are attacked by a humongous ape. A few of them regroup and find out more about the ape, the islands natives and underground monsters.','2 hour','2017','Brie Larson,Tom Hiddleston,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Monsters University','Movie','Mike and Sulley, two monsters, join the Monsters University in order to graduate as the scariest monsters on the planet. While they are arch rivals of each other, gradually, they become best friends.','1h 50m','2013','Billy Crystal,John Krasinski,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Moana','Movie','Moana, daughter of chief Tui, embarks on a journey to return the heart of goddess Te Fitti, to Maui, after the plants and the fish on her island start dying due to a blight.','1h 53m','2016','Dwayne Johnson,Aulili Cravalho,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Brave','Movie','Merida, an independent archer, disobeys an ancient custom which unleashes a dark force. After meeting an elderly witch, as she journeys to reverse the curse, she discovers the real meaning of bravery.','1h 40m','2012','Kelly McDonald,Kevin McKidd,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Frozen','Movie','Anna sets out on a journey with an iceman, Kristoff, and his reindeer, Sven, in order to find her sister, Elsa, who with the help of her powers mistakenly converts everything into ice.','1h 49m','2013','Kristen Bell,Idina Menzel,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Tangled','Movie','Rapunzel, an innocent, young girl, is locked up by her overly protective mother. Her wish to escape into the world outside finally comes true when she meets the good-hearted thief, Flynn.','1h 40m','2010','Mandy Moore,Zachary Levi,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Rio','Movie','A bookshop owner, Linda, nurtures Blu, a macaw, after smugglers lose him in Minnesota. When she takes him to Rio, to help review his dying species, Blu is again abducted by a few smugglers.','1h 36m','2011','Anne Hathaway,Jesse Eisenberg,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Bolt','Movie','Bolt is a dog who stars in a superhit television show in which he possesses superpowers. He believes his powers are real and embarks on a purposeful mission.','1h 37m','2008','Miley Cyrus,John Travolta,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Game of Thrones','TV Series','Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.','40m','17 April 2011 - 19 May 2019','Emilia Clarke,Kit Harington,..','Emmy');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Friends','TV Series','Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.','25m','22 September 1994 -  6 May 2004','Jennifer Aniston,Courteney Cox,..','Emmy');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Fast & Furious Presents: Hobbs & Shaw','Movie','Brixton Lorr is a cybernetically enhanced soldier who possesses superhuman strength, a brilliant mind and a lethal pathogen that could wipe out half of the worlds population. Its now up to hulking lawman Luke Hobbs and lawless operative Deckard Shaw to put aside their past differences and work together to prevent the seemingly indestructible Lorr from destroying humanity.','2h 16m','2019','Dwayne Johnson,Jason Statham,..','None');
+
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('The Lion King
+','Movie','Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simbas exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his.','1h 58m','2019','Donald Glover, Beyoncé,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('21 Bridges','Movie','After uncovering a massive conspiracy, an embattled NYPD detective joins a citywide manhunt for two young cop killers. As the night unfolds, he soon becomes unsure of who to pursue -- and whos in pursuit of him. When the search intensifies, authorities decide to take extreme measures by closing all of Manhattans 21 bridges to prevent the suspects from escaping.','1h 43m','2019','Chadwick Boseman, Taylor Kitsch,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Crawl','Movie','When a massive hurricane hits her Florida town, young Haley ignores the evacuation orders to search for her missing father, Dave. After finding him gravely injured in their family home, the two of them become trapped by the rapidly encroaching floodwaters. With the storm strengthening, Haley and Dave discover an even greater threat than the rising water level -- a relentless attack from a pack of gigantic alligators.','1h 27m','2019','Kaya Scodelario, Barry Pepper,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Annabelle Comes Home
+','Movie','Determined to keep Annabelle from wreaking more havoc, paranormal investigators Ed and Lorraine Warren lock the possessed doll in the artifacts room in their house. But when the doll awakens the rooms evil spirits, it soon becomes an unholy night of terror for the couples 10-year-old daughter, her friends and their young baby sitter.','1h 46m','2019','Mckenna Grace, Madison Iseman,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('21 Bridges','Movie','After uncovering a massive conspiracy, an embattled NYPD detective joins a citywide manhunt for two young cop killers. As the night unfolds, he soon becomes unsure of who to pursue -- and whos in pursuit of him. When the search intensifies, authorities decide to take extreme measures by closing all of Manhattans 21 bridges to prevent the suspects from escaping.','1h 43m','2019','Chadwick Boseman, Taylor Kitsch,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Once Upon a Time In Hollywood','Movie','Actor Rick Dalton gained fame and fortune by starring in a 1950s television Western, but is now struggling to find meaningful work in a Hollywood that he doesnt recognize anymore. He spends most of his time drinking and palling around with Cliff Booth, his easygoing best friend and longtime stunt double. Rick also happens to live next door to Roman Polanski and Sharon Tate -- the filmmaker and budding actress whose futures will forever be altered by members of the Manson Family.','2h 40m','2019','Quentin Tarantino, Margot Robbie,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Chronicle','Movie','Three high school friends stumble upon a discovery that empowers them with superhuman powers. What begins as fun and games soon turns into a dark nightmare as they lose control over themselves.','1h 29m','2012','Dane DeHaan,Michael B. Jordan,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Bound','Movie','Violet, the mistress of the gangster Caesar, is in a torrid love affair with Corky. For Violet to dump Caesar, they formulate a plan to rob millions of dollars of stashed mob cash, blaming him for it.','1h 49m','1996','Jennifer Tilly,Gina Gershon,..','Golden Globe');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('First Reformed','Movie','The pastor of a small church in upstate New York spirals out of control after a soul-shaking encounter with an unstable environmental activist and his pregnant wife.','1h 53m','2017','Ethan Hawkes,Amanda Seyfried,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Because I Said So','Movie','A worried, overprotective mother tries to push her youngest daughter into matrimony in this comedy.','1h 42m','2007','Mandy Moore,Gabriel Macht,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Stranger Things','TV Series','This thrilling Netflix original drama stars Golden Globe-winning actress Winona Ryder as Joyce Byers, who lives in a small Indiana town in 1983 -- inspired by a time when tales of science fiction captivated audiences. When Joyces 12-year-old son, Will, goes missing, she launches a terrifying investigation into his disappearance with local authorities. As they search for answers, they unravel a series of extraordinary mysteries involving secret government experiments, unnerving supernatural forces, and a very unusual little girl.','46m','2016','Millie Bobby Brown,Finn Wolfhard,..','Emmy');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('City of Ghosts','Movie','Syrian rebels, who call themselves Raqqa is Being Slaughtered Silently, risk their lives to document the atrocities committed by ISIS in their homeland since 2014.','1h 33m','2017','Matthew Heineman,..',' Directors Guild of America Award for Outstanding Directing – Documentaries');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Charlies Country','Movie','Charlie (David Gulpilil), an Aboriginal man of Australia, struggles to navigate the society he finds himself in, especially when he tries to reconnect with the traditional ways of his people.','1h 48m','2013','David Gulpilil,Peter Djigirr,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Brave','Movie','Merida, an independent archer, disobeys an ancient custom which unleashes a dark force. After meeting an elderly witch, as she journeys to reverse the curse, she discovers the real meaning of bravery.','1h 40m','2012','Kelly McDonald,Kevin McKidd,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('The Shashank Redemption','Movie','Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison. He becomes the most unconventional prisoner.','2h 22m','1994','Tim Robbins,Morgan Freeman,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('The Godfather','Movie','Don Vito Corleone, head of a mafia family, decides to handover his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.','2h 58m','1972','Al Pacino,Marlon Brando,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('The Godfather Part II','Movie','Michael, Vito Corleones son, attempts to expand his familys crime empire. While he strikes a business deal with gangster Hyman Roth, he is unaware of the dangers he has gotten himself into.','3h 22m','1974','Al Pacino,Robert De Niro,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('The Dark Knight','Movie','With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism.','1h 37m','2008','Christian Bale,Heath Ledger,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('12 Angry Men','Movie','A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed in court.','1h 36m','1957','Henry Fonda,Lee J. Cobbd,..','Edgar Award for Best Motion Picture Screenplay');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Pulp Fiction','Movie','In the realm of underworld, a series of incidents intertwines the lives of two Los Angeles mobsters, a gangsters wife, a boxer and two small-time criminals.',' 2h 58m','1994','Quentin Tarantino,Uma Thurman,..',' Palme dOr');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('The Good, the Bad and the Ugly','Movie','During the Civil War, two men, Blondie and Tuco, form an uncomfortable alliance while looking for treasure. They must also outwit Angel Eyes, an outlaw who wants to plunder the riches for himself.','3h 6m','1966','Clint Eastwood,Eli Wallach,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Fight Club','Movie','Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister.','2h 31m','1999','Brad Pitt,Edward Norton,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Inception','Movie','Cobb steals information from his targets by entering their dreams. He is wanted for his alleged role in his wifes murder and his only chance at redemption is to perform the impossible, an inception.','2h 28m','2010','Leonardo DiCaprio,Ellen Page,..',' Academy Award for Best Sound Mixing');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Forrest Gump','Movie','Forrest Gump, a man with a low IQ, joins the army for service where he meets Dan and Bubba. However, he cannot stop thinking about his childhood sweetheart Jenny Curran, whose life is messed up.','2h 22m','1994','Tom Hanks,Robin Wright,..',' Academy Award for Best Picture');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Captain Marvel','Movie','Captain Marvel is an extraterrestrial Kree warrior who finds herself caught in the middle of an intergalactic battle between her people and the Skrulls. Living on Earth in 1995, she keeps having recurring memories of another life as U.S. Air Force pilot Carol Danvers. With help from Nick Fury, Captain Marvel tries to uncover the secrets of her past while harnessing her special superpowers to end the war with the evil Skrulls.','2h 5m','2019','Brie Larson,Samuel L. Jackson,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Shazam!','Movie','We all have a superhero inside of us -- it just takes a bit of magic to bring it out. In 14-year-old Billy Batsons case, all he needs to do is shout out one word to transform into the adult superhero Shazam. Still a kid at heart, Shazam revels in the new version of himself by doing what any other teen would do -- have fun while testing out his newfound powers. But hell need to master them quickly before the evil Dr. Thaddeus Sivana can get his hands on Shazams magical abilities.','2h 12m','2019','Zachary Levi,Asher Angel,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Pet Sematary','Movie','Dr. Louis Creed and his wife, Rachel, relocate from Boston to rural Maine with their two young children. The couple soon discover a mysterious burial ground hidden deep in the woods near their new home. When tragedy strikes, Louis turns to his neighbour Jud Crandall, setting off a perilous chain reaction that unleashes an unspeakable evil with horrific consequences.','2h','2019','Jason Clarke,John Lithgow,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Aladin','Movie','Aladdin is a lovable street urchin who meets Princess Jasmine, the beautiful daughter of the sultan of Agrabah. While visiting her exotic palace, Aladdin stumbles upon a magic oil lamp that unleashes a powerful, wisecracking, larger-than-life genie. As Aladdin and the genie start to become friends, they must soon embark on a dangerous mission to stop the evil sorcerer Jafar from overthrowing young Jasmines kingdom.','2h 9m','2019','Naomi Scott,Mena Massoud,..','Oscar');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Toy Story 4','Movie','Woody, Buzz Lightyear and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky. The adventurous journey turns into an unexpected reunion as Woodys slight detour leads him to his long-lost friend Bo Peep. As Woody and Bo discuss the old days, they soon start to realize that theyre worlds apart when it comes to what they want from life as a toy.','1h 40m','2019','Keanu Reeves,Tom Hanks,..','None');
+
+INSERT INTO shows (sh_name, sh_type, sh_story,sh_dur,sh_release,sh_cast,sh_awards) VALUES ('Joker','Movie','Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like hes part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker.',' 2h 2m','2019','Joaquin Phoenix,Zazie Beetz,..','None');
